@@ -49,6 +49,9 @@ class Queue {
   }
 
   display() {
+    if(this.first === null) {
+      return null
+    }
     let node = this.first;
     while(node !== null) {
       console.log(node.value)
