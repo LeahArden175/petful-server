@@ -52,12 +52,13 @@ class Queue {
     if(this.first === null) {
       return null
     }
+    let result = []
     let node = this.first;
     while(node !== null) {
-      console.log(node.value)
+      result.push(node.value)
       node = node.next;
     }
-    return;
+    return result;
   }
 }
 
