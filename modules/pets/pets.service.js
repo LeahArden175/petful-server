@@ -32,8 +32,6 @@ module.exports = {
 
   dequeue(type) {
     // Remove a pet from the queue.
-    let pet = pets[type].dequeue();
-    pets[type] = pets[type]
-    return pet;
+    return pets[type].dequeue();
   }
 }
