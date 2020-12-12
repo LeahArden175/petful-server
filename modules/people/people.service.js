@@ -11,7 +11,7 @@ store.people.forEach((person) => people.enqueue(person));
 
 module.exports = {
   get() {
-    // Return all people in the queue.
+    //Return all people in the queue.
     // if (people.first === null) {
     //   store.people.forEach((person) => people.enqueue(person));
     // }
