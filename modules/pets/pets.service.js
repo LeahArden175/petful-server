@@ -16,14 +16,14 @@ store.dogs.forEach(dog => pets.dogs.enqueue(dog))
 
 module.exports = {
   get() {
-    // Return the pets next in line to be adopted.
-    // if(pets.cats.first === null) {
-    //   store.cats.forEach(cat => pets.cats.enqueue(cat))
-    // }
+    //Return the pets next in line to be adopted.
+    if(pets.cats.first === null) {
+      store.cats.forEach(cat => pets.cats.enqueue(cat))
+    }
 
-    // if(pets.dogs.first === null) {
-    //   store.dogs.forEach(dog => pets.dogs.enqueue(dog))
-    // }
+    if(pets.dogs.first === null) {
+      store.dogs.forEach(dog => pets.dogs.enqueue(dog))
+    }
 
     const cat = pets.cats.display()
     const dog = pets.dogs.display()
