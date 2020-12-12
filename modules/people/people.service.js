@@ -12,9 +12,9 @@ store.people.forEach((person) => people.enqueue(person));
 module.exports = {
   get() {
     // Return all people in the queue.
-    if (people.first === null) {
-      store.people.forEach((person) => people.enqueue(person));
-    }
+    // if (people.first === null) {
+    //   store.people.forEach((person) => people.enqueue(person));
+    // }
 
     const person = people.display();
     return person;
