@@ -20,6 +20,7 @@ class Queue {
 
     if (this.last) {
       this.last.next = node;
+      console.log(node.value)
     }
     this.last = node;
   }
