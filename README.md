@@ -10,6 +10,12 @@ The front end code can be found at https://github.com/LeahArden175/petful-client
 
 -------------------------
 
+API Endpoints:
+
+GET: /api/people - Get all people in the queue
+POST: /api/people - Add a name to the queue
+
+-------------------------
 Back End
 
     -Node and Express
